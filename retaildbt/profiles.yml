@@ -1,0 +1,9 @@
+retaildbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: SALES_DATA_DB
+      schema: ANALYTICS
